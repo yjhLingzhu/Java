@@ -17,8 +17,8 @@ public class TreeSetDemo02 {
         Student2 s4 = new Student2("大哈1", 38);
 
         // 添加
-        ts.add(s1);
-        ts.add(s2);
+        ts.add(s1);     // 对于TreeSet，add里面的对象要是实现了自然排序接口的才行。
+        ts.add(s2);     // 基本数据类型是实现了自然排序接口了的
         ts.add(s3);
         ts.add(s4);
 
